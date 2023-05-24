@@ -1,9 +1,5 @@
 import PropTypes from 'prop-types';
-
 import React from 'react';
-
-
-
 import { useState } from 'react';
 import Notification from './Notification/Notification';
 import Section from './Section/Section';
@@ -11,7 +7,7 @@ import Statistics from './Statistics/Statistics';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions.jsx';
 
 
-// const MyContext = createContext()
+
 
 export const App = () => {
   
