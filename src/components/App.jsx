@@ -68,7 +68,7 @@ const[bad,setBad] = useState(0);
         >
           <Section title={'Please leave feedback'}>
             <FeedbackOptions
-              options={[good, neutral, bad]}
+              options={['good', 'neutral', 'bad']}
               onLeaveFeedback={handleCounter}
             ></FeedbackOptions>
           </Section>
